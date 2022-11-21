@@ -41,7 +41,6 @@ class register : AppCompatActivity() {
             editor.putString("reg_pincode", reg_pincode.text.toString());
 
             editor.commit()
-
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent);
 
