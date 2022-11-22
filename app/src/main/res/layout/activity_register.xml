@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="10dp"
     android:paddingTop="50dp"
     android:background="#111"
     >
@@ -38,6 +39,7 @@
                 android:layout_marginTop="10dp"
                 android:paddingLeft="10dp"
                 android:text="Name"
+                android:textStyle="bold"
                 android:textColor="#ff4000"
                 android:textSize="14dp"/>
             <LinearLayout
@@ -47,13 +49,14 @@
                 android:gravity="center">
                 <EditText
                     android:id="@+id/reg_name"
-                    android:layout_width="320dp"
+                    android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
                     android:layout_marginRight="10dp"
                     android:background="@drawable/edit_view"
                     android:backgroundTint="#75D0D0D0"
                     android:textSize="20dp"
+                    android:textColor="#ff4000"
                     />
                 <TextView
                     android:layout_width="wrap_content"
@@ -67,6 +70,7 @@
                 android:layout_marginTop="10dp"
                 android:paddingLeft="10dp"
                 android:text="Email"
+                android:textStyle="bold"
                 android:textColor="#ff4000"
                 android:textSize="14dp"/>
             <LinearLayout
@@ -76,13 +80,14 @@
                 android:gravity="center">
                 <EditText
                     android:id="@+id/reg_email"
-                    android:layout_width="320dp"
+                    android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
                     android:layout_marginRight="10dp"
                     android:background="@drawable/edit_view"
                     android:backgroundTint="#75D0D0D0"
                     android:textSize="20dp"
+                    android:textColor="#ff4000"
                     />
                 <TextView
                     android:layout_width="wrap_content"
@@ -96,6 +101,7 @@
                 android:layout_marginTop="10dp"
                 android:paddingLeft="10dp"
                 android:text="Phone"
+                android:textStyle="bold"
                 android:textColor="#ff4000"
                 android:textSize="14dp"/>
             <LinearLayout
@@ -105,13 +111,14 @@
                 android:gravity="center">
                 <EditText
                     android:id="@+id/reg_mobile"
-                    android:layout_width="320dp"
+                    android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
                     android:layout_marginRight="10dp"
                     android:background="@drawable/edit_view"
                     android:backgroundTint="#75D0D0D0"
                     android:textSize="20dp"
+                    android:textColor="#ff4000"
                     />
                 <TextView
                     android:layout_width="wrap_content"
@@ -125,6 +132,7 @@
                 android:layout_marginTop="10dp"
                 android:paddingLeft="10dp"
                 android:text="Password"
+                android:textStyle="bold"
                 android:textColor="#ff4000"
                 android:textSize="14dp"/>
             <LinearLayout
@@ -134,13 +142,14 @@
                 android:gravity="center">
                 <EditText
                     android:id="@+id/reg_password"
-                    android:layout_width="320dp"
+                    android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
                     android:layout_marginRight="10dp"
                     android:background="@drawable/edit_view"
                     android:backgroundTint="#75D0D0D0"
                     android:textSize="20dp"
+                    android:textColor="#ff4000"
                     />
                 <TextView
                     android:layout_width="wrap_content"
@@ -154,6 +163,7 @@
                 android:layout_marginTop="10dp"
                 android:paddingLeft="10dp"
                 android:text="House No. and Street/Area"
+                android:textStyle="bold"
                 android:textColor="#ff4000"
                 android:textSize="14dp"/>
             <LinearLayout
@@ -171,6 +181,7 @@
                     android:background="@drawable/edit_view"
                     android:backgroundTint="#75D0D0D0"
                     android:textSize="20dp"
+                    android:textColor="#ff4000"
                     />
 
             </LinearLayout>
@@ -181,6 +192,7 @@
                 android:layout_marginTop="10dp"
                 android:paddingLeft="10dp"
                 android:text="City"
+                android:textStyle="bold"
                 android:textColor="#ff4000"
                 android:textSize="14dp"/>
             <LinearLayout
@@ -197,6 +209,7 @@
                     android:background="@drawable/edit_view"
                     android:backgroundTint="#75D0D0D0"
                     android:textSize="20dp"
+                    android:textColor="#ff4000"
                     />
 
             </LinearLayout>
@@ -207,6 +220,7 @@
                 android:layout_marginTop="10dp"
                 android:paddingLeft="10dp"
                 android:text="PinCode"
+                android:textStyle="bold"
                 android:textColor="#ff4000"
                 android:textSize="14dp"/>
             <LinearLayout
@@ -223,6 +237,7 @@
                     android:background="@drawable/edit_view"
                     android:backgroundTint="#75D0D0D0"
                     android:textSize="20dp"
+                    android:textColor="#ff4000"
                     />
 
             </LinearLayout>
@@ -240,7 +255,7 @@
                     android:paddingLeft="10dp"
                     android:text="*By filling and clicking on Register you going agree to our terms and conditions*"
                     android:textColor="#000"
-                    android:textSize="14dp"/>
+                    android:textSize="12dp"/>
             </LinearLayout>
 
             <LinearLayout

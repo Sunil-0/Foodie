@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, home::class.java)
 
             if(userID_val.isEmpty()){
-                Toast.makeText(applicationContext, "Enter Mobile Number or Email", Toast.LENGTH_SHORT).show()
+                Toast.makeText(applicationContext, "Enter Email", Toast.LENGTH_SHORT).show()
             }
             else if(userID_val != reg_email){
                 Toast.makeText(applicationContext, "Wrong Email", Toast.LENGTH_SHORT).show()
@@ -68,7 +68,6 @@ class MainActivity : AppCompatActivity() {
             }else{
                 startActivity(intent)
             }
-
         }
 
         regBtn.setOnClickListener(){
