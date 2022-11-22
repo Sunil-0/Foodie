@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:padding="10dp"
     android:background="#ff4000"
-    android:gravity="bottom"
+    android:gravity="center_horizontal"
     tools:context=".home">
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,7 +30,7 @@
             android:textColor="@color/white"
             android:textAlignment="center"
             android:text="Click On Item To Order"
-            android:textSize="20dp"
+            android:textSize="14dp"
             android:textStyle="bold" />
 
     </LinearLayout>
@@ -58,14 +58,34 @@
 
     </LinearLayout>
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
         android:layout_height="50dp"
         android:orientation="horizontal"
-        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
         android:background="@drawable/corner_round_shape_bg"
-        android:gravity="center">
-
-
-
+        >
+        <TextView
+            android:id="@+id/homeIcon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/home_icon"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:id="@+id/foodIcon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/food_icon"
+            android:layout_marginLeft="50dp"
+            />
+        <TextView
+            android:id="@+id/userIcon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/user_icon"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            />
     </LinearLayout>
 </androidx.appcompat.widget.LinearLayoutCompat>

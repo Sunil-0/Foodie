@@ -20,6 +20,7 @@ class home : AppCompatActivity() {
             WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_home)
 
+
         val sp : SharedPreferences = this.getSharedPreferences(file, MODE_PRIVATE)
         val editor : SharedPreferences.Editor = sp.edit()
         val headerText = findViewById<TextView>(R.id.header)
@@ -91,7 +92,22 @@ class home : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val homeIcon = findViewById<TextView>(R.id.homeIcon)
+        val foodIcon = findViewById<TextView>(R.id.foodIcon)
+        val userIcon = findViewById<TextView>(R.id.userIcon)
 
+        homeIcon.setOnClickListener(){
+            val intent = Intent(this, home::class.java)
+            startActivity(intent)
+        }
+        foodIcon.setOnClickListener(){
+            val intent = Intent(this, cartView::class.java)
+            startActivity(intent)
+        }
+        userIcon.setOnClickListener(){
+            val intent = Intent(this, userData::class.java)
+            startActivity(intent)
+        }
 
     }
 }

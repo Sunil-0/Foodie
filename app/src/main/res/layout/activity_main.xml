@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#111"
+    android:background="#ff4000"
     >
 
     <LinearLayout
@@ -64,7 +64,7 @@
                 android:layout_marginTop="20dp"
                 android:paddingLeft="10dp"
                 android:text="Email"
-                android:textColor="#FF4000"
+                android:textColor="#ff4000"
                 android:textStyle="bold"
                 android:textSize="14dp"/>
             <LinearLayout
@@ -80,7 +80,7 @@
                     android:layout_marginRight="10dp"
                     android:background="@drawable/edit_view"
                     android:backgroundTint="#75D0D0D0"
-                    android:textColor="#ff4000"
+                    android:textColor="#282525"
                     android:textSize="18dp"
                     />
                 <TextView
@@ -94,7 +94,7 @@
                 android:layout_marginTop="20dp"
                 android:paddingLeft="10dp"
                 android:text="Password"
-                android:textColor="#FF4000"
+                android:textColor="#ff4000"
                 android:textStyle="bold"
                 android:textSize="14dp"/>
             <LinearLayout
@@ -110,7 +110,7 @@
                     android:layout_marginRight="10dp"
                     android:background="@drawable/edit_view"
                     android:backgroundTint="#75D0D0D0"
-                    android:textColor="#ff4000"
+                    android:textColor="#282525"
                     android:textSize="18dp"
                     />
                 <TextView
