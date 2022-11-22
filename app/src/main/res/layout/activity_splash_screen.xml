@@ -16,7 +16,6 @@
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textStyle="bold"
-
         android:typeface="serif"
         android:textSize="85dp"
         />
